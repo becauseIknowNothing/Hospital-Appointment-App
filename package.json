@@ -4,18 +4,11 @@
 	"description": "Here, you can choose hospitals online and can fix your appointment",
 	"main": "app.js",
 	"scripts": {
-		"start": "node app.js"
+		"start": "node app.js",
+		"dev" : "nodemon app.js"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/nipunsingla/appointment-app.git"
-	},
-	"author": "",
+	"author": "Lovish",
 	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/nipunsingla/appointment-app/issues"
-	},
-	"homepage": "https://github.com/nipunsingla/appointment-app#readme",
 	"dependencies": {
 		"bcrypt": "^3.0.8",
 		"body-parser": "^1.19.0",
